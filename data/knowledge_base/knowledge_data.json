@@ -1,0 +1,466 @@
+{
+  "metadata": {
+    "version": "2.0",
+    "last_updated": "2025-12-14",
+    "domains": [
+      "국민연금",
+      "건강보험",
+      "복지로",
+      "국세청"
+    ],
+    "total_items": 20
+  },
+  "knowledge_items": [
+    {
+      "id": "pension_claim_method",
+      "domain": "국민연금",
+      "doc_type": "국민연금_안내문",
+      "scenario": "연금_수령_신청",
+      "topic": "국민연금 수령 신청 방법",
+      "source_name": "국민연금공단 공식",
+      "source_url": "https://www.nps.or.kr",
+      "text": "국민연금을 수령하려면 지급 개시 연령 도달 3개월 전부터 신청할 수 있습니다. 신청 방법: 1) 전국 국민연금공단 지사 방문 2) 국민연금공단 홈페이지(www.nps.or.kr) 온라인 신청 3) '내 곁에 국민연금' 모바일 앱 4) 우편/팩스 신청. 필요 서류: 노령연금 청구서, 신분증 사본, 본인 명의 통장 사본, 혼인관계증명서.",
+      "action_guide": {
+        "phone": {
+          "number": "1355",
+          "hours": "평일 09:00-18:00",
+          "script": "연금 수령 신청하려고 전화했습니다"
+        },
+        "online": {
+          "url": "https://www.nps.or.kr",
+          "app": "내 곁에 국민연금"
+        },
+        "visit": {
+          "place": "가까운 국민연금공단 지사",
+          "documents": [
+            "신분증",
+            "통장사본",
+            "혼인관계증명서"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pension_expected_amount",
+      "domain": "국민연금",
+      "doc_type": "국민연금_안내문",
+      "scenario": "예상연금_조회",
+      "topic": "예상 연금액 조회 방법",
+      "source_name": "국민연금공단 공식",
+      "source_url": "https://www.nps.or.kr",
+      "text": "내가 받을 예상 연금액은 국민연금공단 홈페이지 또는 모바일 앱에서 조회할 수 있습니다. 공인인증서 또는 간편인증으로 로그인 후 '내 연금 알아보기' 메뉴에서 확인하세요. 전화(1355)로도 예상연금액 안내를 받을 수 있습니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1355",
+          "hours": "평일 09:00-18:00",
+          "script": "제 예상 연금액이 얼마인지 확인하고 싶습니다"
+        },
+        "online": {
+          "url": "https://www.nps.or.kr",
+          "path": "내 연금 알아보기"
+        }
+      }
+    },
+    {
+      "id": "pension_info_letter",
+      "domain": "국민연금",
+      "doc_type": "국민연금_안내문",
+      "scenario": "지급_안내문",
+      "topic": "국민연금 지급 안내문 설명",
+      "source_name": "국민연금공단 공식",
+      "source_url": "https://www.nps.or.kr",
+      "text": "국민연금 지급 안내문은 앞으로 받으실 연금 금액과 지급 예정일을 알려드리는 안내문입니다. 특별히 조치하실 사항은 없습니다. 연금은 매월 25일에 지정하신 계좌로 자동 입금됩니다. 계좌를 변경하고 싶으시면 공단에 연락하세요.",
+      "action_guide": {
+        "phone": {
+          "number": "1355",
+          "hours": "평일 09:00-18:00",
+          "script": "연금 지급 안내문을 받았는데 궁금한 점이 있습니다"
+        }
+      }
+    },
+    {
+      "id": "pension_account_change",
+      "domain": "국민연금",
+      "doc_type": "국민연금_안내문",
+      "scenario": "입금계좌_변경",
+      "topic": "연금 수령 계좌 변경 방법",
+      "source_name": "국민연금공단 공식",
+      "source_url": "https://www.nps.or.kr",
+      "text": "연금을 받을 계좌를 변경하려면 1) 국민연금공단 지사 방문 2) 홈페이지 온라인 신청 3) 전화(1355) 신청이 가능합니다. 필요 서류: 신분증, 새 계좌 통장사본. 변경 후 다음 달 연금부터 새 계좌로 입금됩니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1355",
+          "script": "연금 받는 계좌를 변경하고 싶습니다"
+        },
+        "visit": {
+          "documents": [
+            "신분증",
+            "새 통장사본"
+          ]
+        }
+      }
+    },
+    {
+      "id": "pension_death_survivor",
+      "domain": "국민연금",
+      "doc_type": "국민연금_안내문",
+      "scenario": "유족연금_신청",
+      "topic": "유족연금 신청 방법",
+      "source_name": "국민연금공단/복지부",
+      "source_url": "https://www.nps.or.kr",
+      "text": "가입자 또는 수급권자가 사망한 경우 유족에게 유족연금이 지급될 수 있습니다. 배우자, 자녀, 부모 등이 신청 가능하며, 사망일로부터 5년 이내에 신청해야 합니다. 필요 서류: 사망진단서, 가족관계증명서, 신청인 신분증 및 통장사본.",
+      "action_guide": {
+        "phone": {
+          "number": "1355",
+          "script": "가족이 돌아가셔서 유족연금 신청하려고 합니다"
+        },
+        "visit": {
+          "place": "국민연금공단 지사",
+          "documents": [
+            "사망진단서",
+            "가족관계증명서",
+            "신분증",
+            "통장사본"
+          ]
+        }
+      }
+    },
+    {
+      "id": "health_payment_method",
+      "domain": "건강보험",
+      "doc_type": "건강보험료_고지서",
+      "scenario": "보험료_납부방법",
+      "topic": "건강보험료 납부 방법",
+      "source_name": "국민건강보험공단 공식",
+      "source_url": "https://www.nhis.or.kr",
+      "text": "건강보험료 납부 방법: 1) 자동이체 (계좌/카드) - 할인 혜택 있음 2) 고객센터 1577-1000 ARS 납부 3) 은행 창구 방문 납부 4) 인터넷지로(www.giro.or.kr) 5) 'The 건강보험' 모바일 앱 6) 사회보험통합징수포털. 납부 기한은 매월 25일까지입니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1577-1000",
+          "hours": "평일 09:00-18:00",
+          "script": "건강보험료 납부 방법을 알고 싶습니다"
+        },
+        "online": {
+          "url": "https://www.nhis.or.kr",
+          "app": "The 건강보험"
+        }
+      }
+    },
+    {
+      "id": "health_overdue_penalty",
+      "domain": "건강보험",
+      "doc_type": "건강보험료_고지서",
+      "scenario": "보험료_연체시",
+      "topic": "건강보험료 연체 시 불이익",
+      "source_name": "국민건강보험공단/EasyLaw",
+      "source_url": "https://www.nhis.or.kr",
+      "text": "건강보험료 연체 시 불이익: 1) 가산금 부과 - 최초 1개월 경과 시 3%, 이후 매월 1%씩 추가 (최대 9%) 2) 6회 이상 체납 시 보험 급여 제한 - 병원비 전액 본인 부담 3) 장기 체납 시 재산 압류, 통장 압류 가능 4) 1년 이상 미납 시 신용정보원 연체자 등록 가능. 경제적 어려움 시 분납 신청이 가능합니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1577-1000",
+          "script": "보험료를 못 내서 연체됐는데 어떻게 해야 하나요"
+        },
+        "online": {
+          "url": "https://www.nhis.or.kr",
+          "path": "보험료 납부"
+        }
+      }
+    },
+    {
+      "id": "health_installment_payment",
+      "domain": "건강보험",
+      "doc_type": "건강보험료_고지서",
+      "scenario": "보험료_분납신청",
+      "topic": "건강보험료 분할 납부 신청",
+      "source_name": "국민건강보험공단 공식",
+      "source_url": "https://www.nhis.or.kr",
+      "text": "보험료 납부가 어려우면 분할 납부(분납)를 신청할 수 있습니다. 대상: 3회 이상 체납한 지역가입자. 신청 방법: 유선(1577-1000), 팩스, 지사 방문. 최장 24회까지 분할 가능합니다. 분납 승인 후 2회 이상 미납 시 승인이 취소될 수 있습니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1577-1000",
+          "script": "건강보험료 분납 신청하려고 합니다"
+        },
+        "visit": {
+          "place": "국민건강보험공단 지사",
+          "documents": [
+            "신분증"
+          ]
+        }
+      }
+    },
+    {
+      "id": "health_qualification_check",
+      "domain": "건강보험",
+      "doc_type": "건강보험료_고지서",
+      "scenario": "자격_확인",
+      "topic": "건강보험 자격 확인 방법",
+      "source_name": "국민건강보험공단 공식",
+      "source_url": "https://www.nhis.or.kr",
+      "text": "건강보험 자격 및 보험료 확인은 1) 국민건강보험공단 홈페이지 2) The 건강보험 앱 3) 고객센터 1577-1000에서 가능합니다. 피부양자 자격, 직장/지역 가입자 구분, 보험료 조회 등을 확인할 수 있습니다.",
+      "action_guide": {
+        "phone": {
+          "number": "1577-1000",
+          "script": "제 건강보험 자격을 확인하고 싶습니다"
+        },
+        "online": {
+          "url": "https://www.nhis.or.kr",
+          "app": "The 건강보험"
+        }
+      }
+    },
+    {
+      "id": "health_income_reduction",
+      "domain": "건강보험",
+      "doc_type": "건강보험료_고지서",
+      "scenario": "보험료_조정신청",
+      "topic": "소득 감소에 따른 보험료 조정",
+      "source_name": "국민건강보험공단 공식",
+      "source_url": "https://www.nhis.or.kr",
+      "text": "직장을 그만두거나 소득이 줄어든 경우 건강보험료 조정을 신청할 수 있습니다. 지역가입자는 소득·재산 변동 시, 직장가입자는 소득 감소 시 조정 가능합니다. 신청: 고객센터 1577-1000 또는 지사 방문.",
+      "action_guide": {
+        "phone": {
+          "number": "1577-1000",
+          "script": "소득이 줄어서 보험료 조정 신청하려고 합니다"
+        }
+      }
+    },
+    {
+      "id": "welfare_basic_livelihood",
+      "domain": "복지로",
+      "doc_type": "복지_안내문",
+      "scenario": "기초생활수급_신청",
+      "topic": "기초생활수급자 신청 방법",
+      "source_name": "복지로/보건복지부",
+      "source_url": "https://www.bokjiro.go.kr",
+      "text": "기초생활수급자 신청: 주소지 관할 행정복지센터(주민센터) 방문 또는 복지로 누리집(www.bokjiro.go.kr) 온라인 신청. 필요 서류: 가족관계증명서, 소득확인서류(급여명세서 등), 금융정보제공동의서. 신청 후 약 30일 내 결과 통보. 소득인정액이 기준 중위소득 이하일 때 수급 가능.",
+      "action_guide": {
+        "phone": {
+          "number": "129",
+          "hours": "24시간 긴급상담 가능",
+          "script": "기초생활수급자 신청하려고 하는데요"
+        },
+        "online": {
+          "url": "https://www.bokjiro.go.kr"
+        },
+        "visit": {
+          "place": "주소지 관할 주민센터(행정복지센터)",
+          "documents": [
+            "신분증",
+            "가족관계증명서",
+            "소득확인서류"
+          ]
+        }
+      }
+    },
+    {
+      "id": "welfare_types_of_benefits",
+      "domain": "복지로",
+      "doc_type": "복지_안내문",
+      "scenario": "급여_종류_안내",
+      "topic": "기초생활보장 급여 종류",
+      "source_name": "복지로/보건복지부",
+      "source_url": "https://www.bokjiro.go.kr",
+      "text": "기초생활보장 급여 종류: 1) 생계급여 - 기본 생활비 지원 2) 의료급여 - 의료비 지원 3) 주거급여 - 월세 또는 수리비 지원 4) 교육급여 - 학비, 교재비 지원. 각 급여별로 소득 기준이 다르며, 생계급여가 가장 엄격합니다. 복지로에서 나에게 맞는 급여를 찾아볼 수 있습니다.",
+      "action_guide": {
+        "phone": {
+          "number": "129",
+          "script": "어떤 복지 급여를 받을 수 있는지 알고 싶어요"
+        },
+        "online": {
+          "url": "https://www.bokjiro.go.kr",
+          "path": "맞춤형급여안내"
+        }
+      }
+    },
+    {
+      "id": "welfare_emergency_support",
+      "domain": "복지로",
+      "doc_type": "복지_안내문",
+      "scenario": "긴급복지_지원",
+      "topic": "긴급복지지원 제도",
+      "source_name": "복지로/보건복지부",
+      "source_url": "https://www.bokjiro.go.kr",
+      "text": "갑작스러운 위기 상황(실직, 질병, 재해 등)으로 생계가 어려워진 경우 긴급복지지원을 받을 수 있습니다. 생계지원금, 의료지원, 주거지원 등이 가능합니다. 신청: 주민센터 방문 또는 129 전화. 24시간 상담 가능하며 신속하게 지원됩니다.",
+      "action_guide": {
+        "phone": {
+          "number": "129",
+          "hours": "24시간 365일",
+          "script": "갑자기 어려운 상황이 생겨서 도움이 필요합니다"
+        },
+        "visit": {
+          "place": "주소지 관할 주민센터"
+        }
+      }
+    },
+    {
+      "id": "welfare_elderly_pension",
+      "domain": "복지로",
+      "doc_type": "복지_안내문",
+      "scenario": "기초연금_신청",
+      "topic": "기초연금 신청 방법",
+      "source_name": "복지로/보건복지부",
+      "source_url": "https://www.bokjiro.go.kr",
+      "text": "만 65세 이상 어르신 중 소득하위 70%에게 기초연금이 지급됩니다. 신청: 주소지 관할 주민센터 또는 국민연금공단 지사 방문. 필요 서류: 신분증, 통장사본, 배우자 동의서(해당 시). 65세 생일이 속한 달 1개월 전부터 신청 가능합니다.",
+      "action_guide": {
+        "phone": {
+          "number": "129",
+          "script": "기초연금 신청하려고 하는데요"
+        },
+        "visit": {
+          "place": "주민센터 또는 국민연금공단 지사",
+          "documents": [
+            "신분증",
+            "통장사본"
+          ]
+        }
+      }
+    },
+    {
+      "id": "welfare_find_my_benefits",
+      "domain": "복지로",
+      "doc_type": "복지_안내문",
+      "scenario": "맞춤형_복지찾기",
+      "topic": "나에게 맞는 복지 서비스 찾기",
+      "source_name": "복지로",
+      "source_url": "https://www.bokjiro.go.kr",
+      "text": "복지로 누리집(www.bokjiro.go.kr)에서 '맞춤형급여안내'를 이용하면 나이, 소득, 가구 상황에 맞는 복지 서비스를 찾을 수 있습니다. 생애주기별(영유아, 아동, 청년, 노인 등)로 받을 수 있는 지원금과 서비스를 한눈에 확인할 수 있습니다.",
+      "action_guide": {
+        "phone": {
+          "number": "129",
+          "script": "제가 받을 수 있는 복지혜택이 뭐가 있는지 알고 싶어요"
+        },
+        "online": {
+          "url": "https://www.bokjiro.go.kr",
+          "path": "맞춤형급여안내 > 복지서비스 모의계산"
+        }
+      }
+    },
+    {
+      "id": "tax_income_filing",
+      "domain": "국세청",
+      "doc_type": "세금_통지서",
+      "scenario": "종합소득세_신고",
+      "topic": "종합소득세 신고 방법",
+      "source_name": "국세청 공식",
+      "source_url": "https://www.nts.go.kr",
+      "text": "종합소득세 신고 기간: 매년 5월 1일~31일 (성실신고자 6월 30일). 신고 방법: 1) 홈택스(www.hometax.go.kr) 전자신고 - 공동인증서/간편인증 로그인 2) 모바일 손택스 앱 3) 세무서 방문 신고. '모두채움 신고'로 간편하게 신고할 수 있습니다. 미신고 시 가산세가 부과됩니다.",
+      "action_guide": {
+        "phone": {
+          "number": "126",
+          "hours": "평일 09:00-18:00",
+          "script": "종합소득세 신고 방법을 알고 싶습니다"
+        },
+        "online": {
+          "url": "https://www.hometax.go.kr",
+          "app": "손택스"
+        },
+        "visit": {
+          "place": "관할 세무서"
+        }
+      }
+    },
+    {
+      "id": "tax_refund",
+      "domain": "국세청",
+      "doc_type": "세금_통지서",
+      "scenario": "세금_환급",
+      "topic": "종합소득세 환급 받는 방법",
+      "source_name": "국세청 공식",
+      "source_url": "https://www.hometax.go.kr",
+      "text": "종합소득세 신고 후 미리 낸 세금이 많으면 환급받습니다. 환급금 조회: 홈택스 '원클릭 환급 신고' 또는 '신고내역 조회'. 국세청은 최대 5년치 환급금을 자동 계산해주는 '원클릭 환급 서비스'를 제공합니다. 5월 정기신고 시 환급금은 보통 6월말~7월초 지급됩니다.",
+      "action_guide": {
+        "phone": {
+          "number": "126",
+          "script": "종합소득세 환급금이 있는지 확인하고 싶습니다"
+        },
+        "online": {
+          "url": "https://www.hometax.go.kr",
+          "path": "원클릭 환급 신고"
+        }
+      }
+    },
+    {
+      "id": "tax_payment_method",
+      "domain": "국세청",
+      "doc_type": "세금_통지서",
+      "scenario": "세금_납부방법",
+      "topic": "종합소득세 납부 방법",
+      "source_name": "국세청 공식",
+      "source_url": "https://www.hometax.go.kr",
+      "text": "종합소득세 납부 방법: 1) 홈택스 전자납부 - 계좌이체, 신용카드, 간편결제 2) 카드로택스(www.cardrotax.kr) 3) 인터넷지로(www.giro.or.kr) 4) 은행/우체국 창구 방문. 지방소득세는 별도로 위택스(www.wetax.go.kr)에서 납부합니다. 납부 기한: 5월 31일까지.",
+      "action_guide": {
+        "phone": {
+          "number": "126",
+          "script": "종합소득세 납부 방법을 알려주세요"
+        },
+        "online": {
+          "url": "https://www.hometax.go.kr",
+          "path": "납부고지 > 세금납부"
+        }
+      }
+    },
+    {
+      "id": "tax_overdue_notice",
+      "domain": "국세청",
+      "doc_type": "세금_통지서",
+      "scenario": "세금_체납_안내",
+      "topic": "세금 체납 시 불이익",
+      "source_name": "국세청 공식",
+      "source_url": "https://www.nts.go.kr",
+      "text": "세금 체납 시 불이익: 1) 가산세 부과 - 납부지연가산세 매일 0.025% 2) 재산(부동산, 자동차, 예금) 압류 3) 신용정보 공개 4) 출국금지(고액체납자). 납부가 어려우면 분납 또는 납부유예를 신청할 수 있습니다. 관할 세무서에 문의하세요.",
+      "action_guide": {
+        "phone": {
+          "number": "126",
+          "script": "세금을 납부하기 어려운 상황인데 어떻게 해야 하나요"
+        },
+        "visit": {
+          "place": "관할 세무서"
+        }
+      }
+    },
+    {
+      "id": "tax_installment",
+      "domain": "국세청",
+      "doc_type": "세금_통지서",
+      "scenario": "세금_분납신청",
+      "topic": "세금 분할 납부 신청",
+      "source_name": "국세청 공식",
+      "source_url": "https://www.nts.go.kr",
+      "text": "세금을 한 번에 내기 어려우면 분납(분할납부)을 신청할 수 있습니다. 납부세액이 1,000만원 초과 시 2개월 이내 분납 가능합니다. 경제적 어려움이 있는 경우 납부기한 연장(최대 9개월)도 신청 가능합니다. 관할 세무서 또는 국세상담센터(126)에 문의하세요.",
+      "action_guide": {
+        "phone": {
+          "number": "126",
+          "script": "세금 분납 신청하고 싶습니다"
+        },
+        "visit": {
+          "place": "관할 세무서"
+        }
+      }
+    }
+  ],
+  "contact_summary": {
+    "국민연금공단": {
+      "phone": "1355",
+      "website": "https://www.nps.or.kr",
+      "app": "내 곁에 국민연금",
+      "hours": "평일 09:00-18:00"
+    },
+    "국민건강보험공단": {
+      "phone": "1577-1000",
+      "website": "https://www.nhis.or.kr",
+      "app": "The 건강보험",
+      "hours": "평일 09:00-18:00"
+    },
+    "보건복지상담센터": {
+      "phone": "129",
+      "website": "https://www.bokjiro.go.kr",
+      "hours": "24시간 (긴급상담)",
+      "note": "긴급복지, 아동학대, 노인학대 24시간 상담"
+    },
+    "국세상담센터": {
+      "phone": "126",
+      "website": "https://www.hometax.go.kr",
+      "hours": "평일 09:00-18:00"
+    }
+  }
+}

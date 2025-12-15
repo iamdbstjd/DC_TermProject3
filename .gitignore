@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (API keys!)
+.env
+
+# Vector database
+data/vectordb/
+
+# Uploaded files
+data/uploads/
+
+# History file
+data/uploads/history.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.venv/

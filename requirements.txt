@@ -1,0 +1,29 @@
+# Core dependencies
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+
+# Document processing
+PyMuPDF>=1.23.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+python-multipart>=0.0.6
+pdf2image>=1.16.0
+
+# Vector DB
+chromadb>=0.4.22
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn>=0.27.0
+streamlit>=1.31.0
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.23.0
